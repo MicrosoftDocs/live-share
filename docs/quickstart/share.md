@@ -29,7 +29,9 @@ Ready to get going?  Team collaboration should be so quick and natural, that it 
 > Did you know you can *join your own collaboration session*? This allows you to try Live Share on your own or to spin up an instance of Visual Studio or VS Code and connect to it remotely! You can even use the same identity in both instances. Check it out!
 
 Just follow these steps to start sharing.
-
+<!--
+Change the instructions to Install extension for VS Code and in-tool for VS?
+-->
 ## 1. Install the extension
 
 Installing the extension is easy. Just follow these steps:
@@ -51,7 +53,7 @@ Installing the extension is easy. Just follow these steps:
     <td  style="border:none;">
         <strong>Visual Studio 2019 </strong><br />
         1. Install <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2019</a>.<br/>
-        2. Install a <a href="../reference/platform-support.md">supported workload</a>. (e.g. ASP.NET, .NET Core, C++, and/or Node.js)<br />
+        2. Install a <a href="../reference/platform-support.md">supported workload</a>. (e.g. ASP.NET, .NET Core, C++, Python, and/or Node.js)<br />
         3. Visual Studio Live Share is installed by default with these workloads. <br />
     </td>
 </tr>
@@ -71,12 +73,15 @@ By downloading and using Visual Studio Live Share, you agree to the [license ter
 
 ## 2. Sign in
 
+<!--
+Re-write the grammar here- run on sentence does not make sense. Change screen shots. There is another way of signing in as well- what if a user goes directly to the start collaboration. 
+-->
 After installing the Live Share extension, restarting, and waiting for dependencies to finish installing (VS Code), you'll want to sign in to let other participants know who you are. Simply click the "Live Share" status bar item (VS Code) / "Sign in" button (VS) to get started.
 
 <table style="border: none;">
 <tr style="border: none;">
     <td width="50%" style="vertical-align: top; border: none;">
-        <img src="../media/vscode-sign-in-button.png" width="100%" alt="Visual Studio Code sign in status bar item"/>
+        <img src="../media/vscode-sign-in-button-new.png" width="100%" alt="Visual Studio Code sign in status bar item"/>
     </td>
     <td width="50%" style="vertical-align: top; border: none;">
         <img src="../media/vs-sign-in-button.png" width="100%" alt="Visual Studio sign in button"/>
@@ -104,12 +109,14 @@ By default, Live Share **hides** any files/folders referenced in .gitignore file
 
 ## 5. Start a collaboration session
 
+<!--
+-->
 Next, simply click "Live Share" within your tool and an invite link is automatically copied to your clipboard.
 
 <table style="border: none;">
 <tr style="border: none;">
     <td width="50%" style="vertical-align: top; border: none;">
-        <img src="../media/vscode-share-button.png" width="100%" alt="Visual Studio Code share status bar item" />
+        <img src="../media/vscode-share-button-new.png" width="100%" alt="Visual Studio Code share status bar item" />
     </td>
     <td width="50%" style="vertical-align: top; border: none;">
         <img src="../media/vs-share-button.png" width="100%" alt="Visual Studio share button"/>

@@ -1,9 +1,13 @@
 <!-- markdownlint-disable MD022 MD025 -->
 # Overview
-## [What is Visual Studio Live Share?](index.md)
+## [Introduction](index.md)
+## [Features](overview/features.md)
+## [Common Use Cases](reference/use-cases.md)
+## [What's new](overview/what's-new.md)
 # Quickstarts
 ## [Share your first project](quickstart/share.md)
 ## [Join your first session](quickstart/join.md)
+## [Join from the browser](quickstart/browser-join.md)
 # How-to Guides: VS Code
 ## [Overview](use/vscode.md)
 ## [Install](use/vscode.md#installation)
@@ -26,12 +30,16 @@
 ## [Co-debug](use/vs.md#co-debugging)
 ## [Share a server](use/vs.md#share-a-server)
 ## [Share a terminal](use/vs.md#share-a-terminal)
+# How-to Guides: Technical Interviews
+## [Technical Interviews](use/technical-interviews.md)
 # Reference
+## [Contacts](reference/contacts.md)
 ## [Security](reference/security.md)
 ## [Connectivity](reference/connectivity.md)
 ## [Language Support](reference/platform-support.md)
 ## [Extension Support](reference/extensions.md)
-## [Common Use Cases](reference/use-cases.md)
+
+
 ## [Linux install details](reference/linux.md)
 ## [Insiders](reference/insiders.md)
 ## [Release Notes](https://aka.ms/vsls-releases)

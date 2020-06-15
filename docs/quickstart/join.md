@@ -14,10 +14,11 @@ ms.workload:
 ---
 
 <!--
-Copyright © Microsoft Corporation
+Copyright &copy; Microsoft Corporation
 All rights reserved.
 Creative Commons Attribution 4.0 License (International): https://creativecommons.org/licenses/by/4.0/legalcode
 -->
+
 
 # Quickstart: Join your first collaboration session
 
@@ -51,7 +52,7 @@ Installing the extension is easy. Just follow these steps:
     <td  style="border:none;">
         <strong>Visual Studio 2019 </strong><br />
         1. Install <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2019</a>.<br/>
-        2. Install a <a href="../reference/platform-support.md">supported workload</a>. (e.g. ASP.NET, .NET Core, C++, and/or Node.js)<br />
+        2. Install a <a href="../reference/platform-support.md">supported workload</a>. (e.g. ASP.NET, .NET Core, C++, Python, and/or Node.js)<br />
         3. Visual Studio Live Share is installed by default with these workloads. <br />
     </td>
 </tr>
@@ -100,7 +101,7 @@ After installing the Live Share extension, restarting, and waiting for dependenc
 <table style="border: none;">
 <tr style="border: none;">
     <td width="50%" style="vertical-align: top; border: none;">
-        <img src="../media/vscode-sign-in-button.png" width="100%" alt="Visual Studio Code sign in status bar item" />
+        <img src="../media/vscode-sign-in-button-new.png" width="100%" alt="Visual Studio Code sign in status bar item" />
     </td>
     <td width="50%" style="vertical-align: top; border: none;">
         <img src="../media/vs-sign-in-button.png" width="100%" alt="Visual Studio sign in button"/>

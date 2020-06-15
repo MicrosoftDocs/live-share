@@ -104,8 +104,7 @@ A notification will appear asking you to sign in using your web browser. Clickin
 
 #
 
-> **Advanced tip:** The `liveshare.account` and `liveshare.accountProvider` settings enable you to select which account should be used for automatic sign-in in case you have cached credentials for multiple accounts available. 
-
+> **Advanced tip:** The `liveshare.account` and `liveshare.accountProvider` settings enable you to select which account should be used for automatic sign-in in case you have cached credentials for multiple accounts available.
 > For example, imagine you work on 2 projects with which you want to sign in with different identities. In your VSCode workspace settings, you could set the `liveshare.account` setting to different email addresses in each project directory to ensure they each automatically sign-in with the correct account. The `liveshare.accountProvider` setting could be set to either `"microsoft"` or `"github"` in case you use the same email address with multiple providers.
 
 If Visual Studio Code is not picking up your sign in after you complete the sign-in process in the browser, see [sign in using a user code](#sign-in-using-a-user-code). Otherwise, check out [troubleshooting](../troubleshooting.md#sign-in) for more tips.
@@ -175,7 +174,7 @@ After downloading and installing Visual Studio Live Share, follow these steps to
 
     Now, simply **click** the "Live Share" status bar item or hit **Ctrl+Shift+P / Cmd+Shift+P** and select "Live Share: Start a collaboration session (Share)".
 
-    ![Share button](../media/vscode-share-button.png)
+    ![Share button](../media/vscode-share-button-new.png)
 
     > [!NOTE]
     > You may be asked by your desktop firewall software to allow the Live Share agent to open a port the first time you share. Accepting this is entirely optional but enables a secured "direct mode" to improve performance when the person you are working with is on the same network as you are. See [changing the connection mode](../reference/connectivity.md#changing-the-connection-mode) for details.
@@ -498,7 +497,7 @@ As a host, you can share a terminal by opening the Live Share custom tab in the 
 
 ![VS Code share terminal](../media/vscode-share-terminal-viewlet.png)<br />
 
-At this point, you can select a read-only or read/write terminal from the menu. When the terminal is read/write, everyone can type in the terminal including the host which makes it easy to intervene if a guest is doing something you do not like. However, to be safe, you should **only give read/write access to guests when you know they actually need it** and stick with read-only terminals for scenarios where you just want the guest to see the output of any commands you run.
+At this point, you can select a read-only or read/write terminal from the menu. When the terminal is read/write, everyone can type in the terminal including the host which makes it easy to intervene if a guest is doing something you do not like. However, to be safe, you should **only give read/write access to guests when you know they actually need it** and stick with read-only terminals for scenarios where you just want the guest to see the output of any commands you run. Keep in mind that read/write access gives the guest the same access to your terminal that you have, and they can run any command on your computer that you can.
 
 > [!NOTE]
 > If the collaboration session is in read-only mode, only read-only terminals can be shared by the host.
